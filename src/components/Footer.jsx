@@ -31,7 +31,7 @@ export default function Footer() {
               <h1 className="text-4xl font-bold text-[#ff5200]">
                 Swiggy</h1>
                 <img
-                  className="h-[50px] rounded-2xl ml-3"
+                  className="h-[50px] text-center justify-center rounded-2xl ml-3"
                   src="/Images/swiggy-logoPtuCoder.jpeg"
                   alt="img-error"
                 />
@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-12 border-b border-gray-700">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-12 border-b border-gray-700">
           {/* Company */}
           <div>
             <h3 className="font-bold text-lg mb-5">Company</h3>
@@ -112,6 +112,12 @@ export default function Footer() {
               <li className="hover:text-white cursor-pointer transition">
                 Feedback
               </li>
+               <li className="hover:text-white cursor-pointer transition">
+                PtuCoder
+              </li>
+               <li className="hover:text-white cursor-pointer transition">
+                Grow With Us
+              </li>
             </ul>
           </div>
 
@@ -131,6 +137,12 @@ export default function Footer() {
               </li>
               <li className="hover:text-white cursor-pointer transition">
                 Refund Policy
+              </li>
+              <li className="hove:text-white cursor-pointer transition">
+                Instant Enquiry
+              </li>
+              <li className="hover:text-white cursor-pointer transition">
+                Co-Partner: Sahil
               </li>
             </ul>
           </div>
