@@ -14,11 +14,11 @@ export default function Footer() {
   const [flink, Setflink] = useState("");
   let linkFired = () => {
     alert("Page will redirect later, once the features will be added !");
-    Setflink('/')
+    Setflink("/");
   };
-  if(flink){
-    window.location.href=flink;
-  };
+  if (flink) {
+    window.location.href = flink;
+  }
 
   return (
     <footer className="bg-[#02060c] text-white mt-16">
@@ -27,7 +27,16 @@ export default function Footer() {
         {/* Logo and  Download App */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-b border-gray-700 pb-10">
           <div>
-            <h1 className="text-4xl font-bold text-[#ff5200]">Swiggy</h1>
+            <div className="flex cursor-pointer" onClick={linkFired}>
+              <h1 className="text-4xl font-bold text-[#ff5200]">
+                Swiggy</h1>
+                <img
+                  className="h-[50px] rounded-2xl ml-3"
+                  src="/Images/swiggy-logoPtuCoder.jpeg"
+                  alt="img-error"
+                />
+              
+            </div>
             <p className="text-gray-400 mt-2">
               © 2026 Swiggy Limited (By-PtuCoder) !
             </p>
@@ -184,7 +193,7 @@ export default function Footer() {
             >
               <FaInstagram className="cursor-pointer hover:text-[#ff5200] transition" />
             </a>
-              <a
+            <a
               href="https://www.youtube.com/@PtuCoder"
               target="_blank"
               rel="noopener noreferrer"
@@ -192,15 +201,13 @@ export default function Footer() {
               <FaTwitter className="cursor-pointer hover:text-[#ff5200] transition" />
             </a>
 
-              <a
+            <a
               href="https://www.youtube.com/@PtuCoder"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin className="cursor-pointer hover:text-[#ff5200] transition" />
             </a>
-
-            
           </div>
         </div>
       </div>

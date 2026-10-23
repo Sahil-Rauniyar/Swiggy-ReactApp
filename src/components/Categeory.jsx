@@ -310,6 +310,7 @@ export default function Categeory() {
             </div>
           </div>
         </div>
+                               {/* FIRST ROW ANOTHER CONTAINER;  */}
         <div
           className="secBoxCont mt-[30px] grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 cursor-pointer"
           onClick={() => imgRedirected(console.log("thankyou!"))}
@@ -379,14 +380,14 @@ export default function Categeory() {
               <p>Sector 16</p>
             </div>
           </div>
-        </div>
+        {/* </div> */}
 
         {/* 2nd another container;  */}
 
-        <div
+        {/* <div
           className="secBoxCont2 mt-[40px] grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 cursor-pointer"
           onClick={() => imgRedirected()}
-        >
+        > */}
           <div className="fBox mt-3 min-w-0 cursor-pointer">
             <img
               src="/Images/b318c0b4bc2169550145ace1d6e791a2.jpeg"
@@ -454,13 +455,13 @@ export default function Categeory() {
               <p>Sector 16</p>
             </div>
           </div>
-        </div>
-        {/* 3rd another container;  */}
+        {/* </div> */}
+                                {/* 3rd another container;  */}
 
-        <div
+        {/* <div
           className="secBoxCont2 mt-[40px] grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 cursor-pointer"
           onClick={() => imgRedirected()}
-        >
+        > */}
           <div className="fBox mt-3 min-w-0 cursor-pointer">
             <img
               src="/Images/xcjwkegujsn2jgvvc4f7.jpeg"
